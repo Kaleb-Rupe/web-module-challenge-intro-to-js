@@ -66,9 +66,8 @@ Do the following:
 */
 
 const value = '1999';
-console.log(value);
 // console.log(typeof (value));
-convertedValue = parseInt(value);
+const convertedValue = parseInt(value);
 console.log(convertedValue);
 // console.log(typeof (convertedValue));
 
@@ -98,11 +97,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(dogAge, humanAge) {
+  const age = dogAge * humanAge;
+  return age;
 }
-
-
+console.log(dogYears(7,7));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
