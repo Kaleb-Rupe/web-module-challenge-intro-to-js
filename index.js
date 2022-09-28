@@ -97,11 +97,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(dogAge, humanAge) {
-  const age = dogAge * humanAge;
-  return age;
+function dogYears(age){
+  let humanYears = age * 7;
+  return humanYears;
 }
-console.log(dogYears(7,7));
+console.log(dogYears(7));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
