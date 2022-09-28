@@ -65,7 +65,12 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+const value = '1999';
+console.log(value);
+// console.log(typeof (value));
+convertedValue = parseInt(value);
+console.log(convertedValue);
+// console.log(typeof (convertedValue));
 
 
 /*
@@ -77,11 +82,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(num1, num2){
+function multiply(num1, num2) {
   return num1 * num2;
 }
 
-
+console.log(multiply(9,9));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
