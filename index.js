@@ -19,8 +19,16 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 18;
+if (votingAge < 18) {
+  console.log('false');
+} else {
+  console.log('true')
+}
 
-
+// OR IT COULD LOOK LIKE THIS FOR A LESS COMPLEX ANSWER IF YOU DID NOT WANT TO 
+/* let votingAge = 20 > 18;
+    console.log(votingAge);
 
 /*
 Task 1b - Values (not auto tested)
@@ -34,8 +42,16 @@ Do the following:
    HINT: no function required
 */
 
+let firstThing = 16 <= 20;
+let secondThing = 10;
 
+if (firstThing === false) {
+  secondThing = 16;
+} else {
+  firstThing = 12;
+}
 
+console.log(firstThing);
 
 
 /*
