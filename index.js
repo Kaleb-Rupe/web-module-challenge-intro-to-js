@@ -228,11 +228,12 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(kilometers){
+  let convertedMiles = kilometers * 0.621371;
+  return convertedMiles;
 }
 
-
+console.log(miles(2));
 
 //Task 5b - Centimeters to Feet
 /*
